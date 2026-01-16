@@ -3,9 +3,9 @@
 ) }}
 
 select
-    customer_id,
+    id,
     first_name,
     last_name,
     email,
-    created_date
-from `bigquery-public-data.thelook_ecommerce.customers`
+    created_at
+from `bigquery-public-data.thelook_ecommerce.users`
